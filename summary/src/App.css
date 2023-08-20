@@ -1,3 +1,18 @@
 .blue {
   background-color: blue;
 }
+.profile {
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  background-color: #ebebeb;
+  margin-top: 10px;
+  box-shadow: 10px 16px 19px -4px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: 10px 16px 19px -4px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 10px 16px 19px -4px rgba(0, 0, 0, 0.34);
+}
+.photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
