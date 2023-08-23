@@ -34,3 +34,28 @@
   border-radius: 0.5rem;
   text-transform: uppercase;
 }
+
+/* appCounter */
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #000;
+}
+
+.counter:hover {
+  background-color: #fff;
+}
+
+.number {
+  font-size: 7rem;
+}
+
+.button {
+  border: none;
+  padding: 0.5rem 1rem;
+}
