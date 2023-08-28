@@ -55,7 +55,12 @@
   font-size: 7rem;
 }
 
-.button {
+.btn {
   border: none;
   padding: 0.5rem 1rem;
+}
+
+.total {
+  font-size: 1rem;
+  margin-left: 1rem;
 }
