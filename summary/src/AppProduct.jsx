@@ -1,5 +1,5 @@
-import "./App.css";
 import React, { useState } from "react";
+import "./App.css";
 import Products from "./components/Products";
 
 export default function AppProduct() {
