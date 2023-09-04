@@ -6,7 +6,7 @@ export default function AppMentor(props) {
     title: "개발자",
     mentor: {
       name: "헤이즐",
-      title: "시니어개발자",
+      title: "프론트개발자",
     },
   });
   return (
