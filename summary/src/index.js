@@ -6,11 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 import AppMentor from "./AppMentor";
 import AppMentors from "./AppMentors";
 import AppMentorsImmer from "./AppMentorsimmer";
+import AppForm from "./AppForm";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppMentorsImmer />
+    <AppForm />
   </React.StrictMode>
 );
 
