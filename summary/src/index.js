@@ -7,11 +7,12 @@ import AppMentor from "./AppMentor";
 import AppMentors from "./AppMentors";
 import AppMentorsImmer from "./AppMentorsimmer";
 import AppForm from "./AppForm";
+import AppWrap from "./components/AppWrap";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppForm />
+    <AppWrap />
   </React.StrictMode>
 );
 
