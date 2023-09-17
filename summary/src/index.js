@@ -9,11 +9,12 @@ import AppMentorsImmer from "./AppMentorsimmer";
 import AppForm from "./AppForm";
 import AppWrap from "./components/AppWrap";
 import AppCard from "./components/AppCard";
+import AppTheme from "./AppTheme";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppCard />
+    <AppTheme />
   </React.StrictMode>
 );
 
