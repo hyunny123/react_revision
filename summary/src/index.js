@@ -10,11 +10,12 @@ import AppForm from "./AppForm";
 import AppWrap from "./components/AppWrap";
 import AppCard from "./components/AppCard";
 import AppTheme from "./AppTheme";
+import AppMentorsButton from "./AppMontorsButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppTheme />
+    <AppMentorsButton />
   </React.StrictMode>
 );
 
