@@ -1,27 +1,20 @@
 import React, { useState } from "react";
-
-const todoList = [
-  {
-    id: 1,
-    title: "밥먹기",
-    status: "active",
-  },
-  {
-    id: 2,
-    title: "책보기",
-    status: "active",
-  },
-];
+import AddTodo from "../AddTodo/AddTodo";
 
 export default function TodoList() {
-  const [todos, setTodos] = useState(todoList);
+  const [todos, setTodos] = useState([
+    { id: "123", text: "장보기", status: "active" },
+    { id: "124", text: "공부하기", status: "active" },
+  ]);
+  const handleAdd = (todo) => setTodos([...todos, todo]);
   return (
-    <div>
+    <section>
       <ul>
-        {todos.map((list) => (
-          <li key={list.id}>{list.title}</li>
+        {todos.map((item) => (
+          <li key={item.id}>{item.text}</li>
         ))}
       </ul>
-    </div>
+      <AddTodo onAdd={handleAdd} />
+    </section>
   );
 }
