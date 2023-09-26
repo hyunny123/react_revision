@@ -3,20 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 // import AppXY from "./AppXY";
-import AppMentor from "./AppMentor";
-import AppMentors from "./AppMentors";
-import AppMentorsImmer from "./AppMentorsimmer";
-import AppForm from "./AppForm";
-import AppWrap from "./components/AppWrap";
-import AppCard from "./components/AppCard";
-import AppTheme from "./AppTheme";
-import AppMentorsButton from "./AppMontorsButton";
-import AppProducts from "./AppProducts";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppProducts />
+    <App />
   </React.StrictMode>
 );
 
